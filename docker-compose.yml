@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  mcp-client:
+    image: mcp-client
+    container_name: mcp-client
+    ports:
+      - "8501:8501"
+    networks:
+      - mcpnet
+    volumes:
+      - /home/ubuntu/client/config.py:/app/mcp_config.py
+    depends_on:
+      - mcp-server
+
+  mcp-server:
+    image: mcp-server
+    container_name: mcp-server
+    ports:
+      - "8000:8000"
+    networks:
+      - mcpnet
+
+networks:
+  mcpnet:
+    driver: bridge
+
