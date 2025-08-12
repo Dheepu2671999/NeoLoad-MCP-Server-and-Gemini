@@ -56,7 +56,7 @@ streamlit run client.py
 ``` bash
 gemini 
 ```
-To laucn the gemini make sure it displays the mcp server is active
+To launch the gemini make sure it displays the mcp server is active
 
 ### Note 
  - To use the gemini cli only server.py must be running. 
@@ -66,5 +66,6 @@ To laucn the gemini make sure it displays the mcp server is active
 - Authenticate the tool
 - can u extract the details from the userpath [provide the userpath name] and transaction [provide the transaction name]
 - Provide the Performance summary of the report extracted
+
 
 
