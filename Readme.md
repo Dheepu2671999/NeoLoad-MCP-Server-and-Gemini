@@ -59,13 +59,14 @@ gemini
 To launch the gemini make sure it displays the mcp server is active
 
 ### Note 
- - To use the gemini cli only server.py must be running. 
-
+ - To use the gemini cli only server.py must be running.
+ - Dockerfile are present for both client and server which will just run the MCP workflow but not integrate with the gemini
 ## Sample Prompts
 
 - Authenticate the tool
 - can u extract the details from the userpath [provide the userpath name] and transaction [provide the transaction name]
 - Provide the Performance summary of the report extracted
+
 
 
 
