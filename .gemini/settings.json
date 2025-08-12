@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "httpServer": {
-      "httpUrl": "http://mcp-server:8000/mcp/"
+      "httpUrl": "http://localhost:8000/mcp/"
       // "timeout": 5000
     }
   }
